@@ -110,10 +110,6 @@ def augment_image(img_path, steering):
         steering = -steering
     return img, steering
 
-imgRe, st = augment_image('collected_data/img0/Image_1621256928554.jpg',0)
-# mpimg.imsave('Result.jpg',imgRe)
-cv2.imshow('img', imgRe)
-
 
 # 6 - PREPROCESS
 def preprocess(img):
